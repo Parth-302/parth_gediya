@@ -1,18 +1,30 @@
 #include<stdio.h>
 
 int main(){
-	int j,k,l,n;
-	printf("please enter number :-");
-	scanf("%d",&n);
 	
-	for(j=0;j<n;j++){
-		for(k=0;k<n;k++){
-			printf(" ");
-		}
-		for(l=0;l<k;l++){
-			printf("*");
-		}
-		printf("\n");
-	}
-	return 0;
+	
+	int i,j,k,rows;
+	
+	printf("please enter number :-");
+	scanf("%d",&rows);
+   
+   for(i=0; i<rows; i++){
+   	for(j=0; j<rows-i-1; j++){
+   		printf(" ");
+	   }
+	   for(k=0; k<=i; k++){
+	   	printf("*");
+	   }
+	   printf("\n");
+   }
+   for(i=rows-2; i>=0 ;i--){
+   	for(j=0; j<rows-i-1; j++){
+   		printf(" ");
+	   }
+	   for(k=0; k<=i; k++){
+	   	printf("*");
+	   }
+	   printf("\n");
+   }
+    return 0;
 }
