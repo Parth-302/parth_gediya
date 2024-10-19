@@ -6,7 +6,7 @@ int main(){
 	float a[100],sum=0;
 	printf("please enter the numbers:-");
 	scanf("%d",&n);
-    printf("enter the data:-")
+    printf("enter the data:-");
 	
 	for(i=0;i<n;i++){
 			printf("\nenter a[%d]=",i);
