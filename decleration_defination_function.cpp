@@ -14,4 +14,3 @@ int main() {
 void myFunction() {
   cout << "I just got executed!";
 }
-
