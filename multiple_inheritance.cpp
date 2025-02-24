@@ -13,7 +13,7 @@ class MyClass {
 class MyOtherClass {
   public:
     void myOtherFunction() {
-      cout << "THIS IS ANOTHER CLASS.\n" ;
+      cout << "THIS IS ANOTHER CLASS." ;
     }
 };
 
@@ -27,4 +27,3 @@ int main() {
   myObj.myOtherFunction();
   return 0;
 }
-

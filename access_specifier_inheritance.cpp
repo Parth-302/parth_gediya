@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 // Base class
@@ -24,7 +25,6 @@ int main() {
   myObj.setSalary(50000);
   myObj.bonus = 15000;
   cout << "Salary: " << myObj.getSalary() << "\n";
-  cout << "Bonus: " << myObj.bonus << "\n";
+  cout << "Bonus: " << myObj.bonus;
   return 0;
 }
-
